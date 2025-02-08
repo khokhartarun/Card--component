@@ -1,0 +1,18 @@
+nav,
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+ul {
+  gap: 40px;
+}
+nav {
+  background-color: rgb(161, 151, 219);
+  padding: 15px;
+  margin-top: 5px;
+  width: 100%;
+}
