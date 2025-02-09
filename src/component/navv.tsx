@@ -1,17 +1,17 @@
-
-function Message (){
-    return (
-        <>
-          <nav> 
-
-            <ul> 
-                <li> Home </li>
-                <li> Contact</li>
-                <li> About</li>
-            </ul>
-          </nav>
-        </>
-    )
+function Message() {
+  return (
+    <>
+      <header>
+        <nav>
+          <ul>
+            <li> Home </li>
+            <li> Contact</li>
+            <li> About</li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  );
 }
 
-export default Message; 
+export default Message;

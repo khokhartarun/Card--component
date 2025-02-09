@@ -1,8 +1,9 @@
 body {
     background-color:gainsboro;
     display: flex;
-    justify-content:center;
-    
 
-
+}
+.card {
+    display: flex;
+    align-self:auto;
 }

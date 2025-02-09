@@ -1,18 +1,24 @@
-nav,
-ul {
-  display: flex;
-}
-
-li {
-  list-style: none;
-  text-align: center;
-}
-ul {
-  gap: 40px;
-}
 nav {
   background-color: rgb(161, 151, 219);
   padding: 15px;
   margin-top: 5px;
   width: 100%;
 }
+
+nav, ul {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  display: flex; /* Explicitly set flex display */
+  gap: 40px;
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
